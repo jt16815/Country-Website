@@ -1,0 +1,30 @@
+h1{
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nav {
+    list-style: none;
+    padding-left: 0;
+    
+    border-style: dashed;
+
+    width: 30vw;
+    margin: auto;
+
+    text-align: center;
+}
+
+.nav>li {
+    border: outset;
+    display: inline-block;
+}
+
+.nav>li>a {
+    text-decoration: none;
+    color: brown;
+}
+
+.nav>li>a:hover {
+    text-decoration: underline;
+}
